@@ -14,3 +14,21 @@ To build and document a functional IDS/SIEM environment that demonstrates:
 - Understanding of monitored vs. unmonitored network segments
 
 This lab mirrors the type of environment used by SOC analysts, Blue Team engineers, and threat detection teams.
+
+-----
+
+Tools & Technologies
+
+- Security Onion 2
+1. Suricata (IDS)
+2. Zeek (protocol analysis)
+3. Elastic / Kibana (SIEM & dashboards)
+
+Kali Linux
+- Used to generate intentional malicious/suspicious traffic (e.g., Nmap scans)
+
+Linux Target Machine
+- Acts as the victim host for attack simulation
+
+VirtualBox
+- Used to create and manage an isolated virtual lab environment
