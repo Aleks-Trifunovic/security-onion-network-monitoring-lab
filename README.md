@@ -19,10 +19,10 @@ This lab mirrors the type of environment used by SOC analysts, Blue Team enginee
 
 Tools & Technologies
 
-- Security Onion 2
-1. Suricata (IDS)
-2. Zeek (protocol analysis)
-3. Elastic / Kibana (SIEM & dashboards)
+Security Onion 2
+- Suricata (IDS)
+- Zeek (protocol analysis)
+- Elastic / Kibana (SIEM & dashboards)
 
 Kali Linux
 - Used to generate intentional malicious/suspicious traffic (e.g., Nmap scans)
