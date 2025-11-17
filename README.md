@@ -17,7 +17,7 @@ This lab mirrors the type of environment used by SOC analysts, Blue Team enginee
 
 -----
 
-Tools & Technologies
+Tools & Technologies:
 
 Security Onion 2
 - Suricata (IDS)
@@ -32,3 +32,13 @@ Linux Target Machine
 
 VirtualBox
 - Used to create and manage an isolated virtual lab environment
+
+-----
+
+What This Lab Demonstrates:
+
+- Ability to design and document a monitoring-focused network
+- Understanding of IDS principles and network analysis
+- Practical experience with Security Onion’s detection pipeline
+- Ability to simulate attacks and interpret SOC-style alerts
+- Skills in troubleshooting, documentation, and analysis
