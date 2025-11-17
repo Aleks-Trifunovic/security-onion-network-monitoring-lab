@@ -13,13 +13,11 @@ To build and document a functional IDS/SIEM environment that demonstrates:
 - Basic attacker behavior simulation
 - Understanding of monitored vs. unmonitored network segments
 
-This lab mirrors the type of environment used by SOC analysts, Blue Team engineers, and threat detection teams.
-
 -----
 
 Tools & Technologies:
 
-Security Onion 2
+Security Onion
 - Suricata (IDS)
 - Zeek (protocol analysis)
 - Elastic / Kibana (SIEM & dashboards)
