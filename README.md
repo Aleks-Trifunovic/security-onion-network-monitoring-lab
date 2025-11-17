@@ -2,8 +2,7 @@
 
 ### This lab simulates a small SOC environment with Security Onion as IDS/SIEM, a Kali attacker and a Linux Machine as a target. The goal of the lab is to generate realistic attacker activity, capture and analyze the traffic, and validate network detection capabilities.
 
----
-
+--
 ### Lab Objective
 
 To build and document a functional IDS/SIEM environment that demonstrates:
