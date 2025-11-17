@@ -14,7 +14,7 @@ It includes the virtual machines, their network interfaces, IP addressing and th
 - **Role:** Intrusion detection, network monitoring, and SIEM.
 - **Network Interfaces:**
   - **Adapter 1:** Bridged (Management interface)  
-    - **IP:** `192.168.178.xyz`. (omitting by choice for best practice)
+    - **IP:** `192.168.178.xyz`. (omitting for best practice)
     - Used to access the Security Onion web interface from the host browser.  
   - **Adapter 2:** Host-only (Sniffing interface)  
     - **IP:** `192.168.56.101`.
