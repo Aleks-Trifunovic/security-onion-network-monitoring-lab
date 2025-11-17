@@ -7,14 +7,10 @@
 
 To build and document a functional IDS/SIEM environment that demonstrates:
 
-Network-based threat detection
-
-Suricata alerting
-
-Security Onion event analysis
-
-Basic attacker behavior simulation
-
-Understanding of monitored vs. unmonitored network segments
+- Network-based threat detection
+- Suricata alerting
+- Security Onion event analysis
+- Basic attacker behavior simulation
+- Understanding of monitored vs. unmonitored network segments
 
 This lab mirrors the type of environment used by SOC analysts, Blue Team engineers, and threat detection teams.
