@@ -3,7 +3,7 @@
 ## Network Topology – Security Onion Monitoring Lab
 
 This document describes the network topology used in the Security Onion + Kali + Target monitoring lab.  
-It includes the virtual machines, their network interfaces, IP addressing, network segments, and the purpose of each network connection.
+It includes the virtual machines, their network interfaces, IP addressing and the purpose of each network connection.
 
 ---
 
