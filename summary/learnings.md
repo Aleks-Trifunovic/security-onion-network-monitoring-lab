@@ -18,10 +18,12 @@ Another interesting point: my sniffing interface does have an IP (192.168.56.101
 ## Interesting points about Security Onion Alert dashboard
 
 This is how the alert dashboard looks like when the ET Open rules fire off due to a nmap scan:
+
 <img width="1478" height="713" alt="so-alerts" src="https://github.com/user-attachments/assets/84b3aa6c-bc94-41e5-a755-0ac6a07f29d6" />
 <img width="1914" height="1022" alt="so-alert-details" src="https://github.com/user-attachments/assets/5b73c535-4556-4220-8465-e4ac6d7f9129" />
 <img width="1907" height="1022" alt="so-alert-details-2" src="https://github.com/user-attachments/assets/dff7518d-9f44-4bfe-aead-ca889cd06818" />
 
+You can immediately see useful details like the source and destination IP addresses, the destination port, and the name of the rule that fired. It also gives you the timestamp, severity level, and a short description of what Suricata thinks is happening. All of this helps you quickly understand what kind of activity took place. It’s a simple scan, but it’s a good example of how Security Onion turns network traffic into something you can actually interpret and act on.
 
 
 ---
