@@ -15,6 +15,22 @@ Another interesting point: my sniffing interface does have an IP (192.168.56.101
 
 ---
 
+## What Worked Well
+
+Once everything was wired correctly, the alerts came in exactly as expected. A simple Nmap scan from Kali triggered multiple Suricata signatures. Seeing the alerts show up in the Security Onion dashboards helped me understand the whole detection pipeline much better.
+
+The lab stayed stable, and the isolation from the rest of my network made me comfortable, it was smooth sailing from there on.
+
+---
+
+## Challenges I Ran Into
+
+At first I couldn’t get any alerts at all, which was frustrating. The main issue turned out to be how the NICs were configured. I had to rethink which adapter should be sniffing the traffic and make sure promiscuous mode was set up the right way. I also realized that NAT traffic will never be monitored, so everything needed to stay on the host-only network if I wanted Security Onion to see it.
+
+Enabling the ET Open ruleset also helped seeing the alerts consistently. Once the rules were active, though, things started behaving the way they were supposed to.
+
+---
+
 ## Interesting points about Security Onion Alert dashboard
 
 This is how the alert dashboard looks like when the ET Open rules fire off due to a nmap scan:
@@ -35,22 +51,6 @@ This is how it looks like:
 <img width="1337" height="424" alt="so-alert-guided-5" src="https://github.com/user-attachments/assets/4ebec831-8eef-495d-918d-af241beb2119" />
 
 Overall, the alerts dashboard and the guided analysis feature complement each other well, making it easier to quickly understand what’s happening on the network and decide how to move forward.
-
----
-
-## What Worked Well
-
-Once everything was wired correctly, the alerts came in exactly as expected. A simple Nmap scan from Kali triggered multiple Suricata signatures. Seeing the alerts show up in the Security Onion dashboards helped me understand the whole detection pipeline much better.
-
-The lab stayed stable, and the isolation from the rest of my network made me comfortable, it was smooth sailing from there on.
-
----
-
-## Challenges I Ran Into
-
-At first I couldn’t get any alerts at all, which was frustrating. The main issue turned out to be how the NICs were configured. I had to rethink which adapter should be sniffing the traffic and make sure promiscuous mode was set up the right way. I also realized that NAT traffic will never be monitored, so everything needed to stay on the host-only network if I wanted Security Onion to see it.
-
-Enabling the ET Open ruleset also helped seeing the alerts consistently. Once the rules were active, though, things started behaving the way they were supposed to.
 
 ---
 
