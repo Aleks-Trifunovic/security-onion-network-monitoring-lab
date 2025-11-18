@@ -50,10 +50,22 @@ This machine is used as the “victim” for Nmap scans and other test traffic.
 6. Finished the setup wizard and rebooted.
 7. Accessed the Security Onion UI from the host browser using the management IP.
 
-During the setup I discovered that the sniffing NIC ended up with an IP 192.168.56.101. At first this seemed wrong because sniffing interfaces often have no IP.
+### Notes on issues i had:
+
+1. During the setup I discovered that the sniffing NIC ended up with an IP 192.168.56.101. At first this seemed wrong because sniffing interfaces often have no IP.
   - But it turned out to be completely fine:
   - It has no gateway, so it can’t route traffic anywhere.
   - It only lives inside the isolated host-only network.
   - Suricata ignores the interface’s IP anyway.
   - It makes troubleshooting easier because I can confirm the adapter is up.
+
+2. NAT traffic is not visible to Security Onion. I initially expected Security Onion to see everything...It didn’t.
+Security Onion only sees packets that pass through the host-only network (vboxnet0).
+So:
+Kali ↔ Victim scans on vboxnet0 = visible
+Anything sent over NAT = invisible
+Once I kept all test traffic on the host-only network, alerts started appearing.
+
+3. Enabling ET Open Rules:
+   The problem occured when i ran sudo suricata-update and the command wasnt recognized. At first it looked like Suricata wasn’t installed, and checking with sudo so-status command showed it as running but the real issue was that Security Onion uses Docker containers for its services. So the command had to be run inside the Suricata container. After suricata-update enable-source et/open was ran the rules were synced Security Onion started generating alerts. This was the trickiest part of the setup but luckily the setup was finished well in the end.
 
