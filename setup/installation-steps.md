@@ -32,7 +32,7 @@ No issues here — Kali worked as expected.
 
 This machine is used as the “victim” for Nmap scans and other test traffic.
 
-### Target Machine Setup (Linux)
+### Security Onion
 
 1. Downloaded the Security Onion ISO.
 2. Created a VM in VirtualBox and assigned:
