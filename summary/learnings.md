@@ -15,16 +15,13 @@ Another interesting point: my sniffing interface does have an IP (192.168.56.101
 
 ---
 
-## A few interesting points about Security Onion Alert dashboard
+## Interesting points about Security Onion Alert dashboard
 
-<img width="1169" height="603" alt="so-alert-guided-4" src="https://github.com/user-attachments/assets/4f967ef0-0f64-47bb-859e-d2aebfddb5f5" />
-<img width="1170" height="468" alt="so-alert-guided-3" src="https://github.com/user-attachments/assets/1ed54551-de49-494b-a244-5d348e541c97" />
-<img width="1337" height="424" alt="so-alert-guided-5" src="https://github.com/user-attachments/assets/b2db6ea0-0f9b-4c21-b189-fe624232b874" />
-<img width="1920" height="1080" alt="so-alert-guided" src="https://github.com/user-attachments/assets/83c45254-8101-49e8-af4d-2ada44794314" />
-<img width="1478" height="713" alt="so-alerts" src="https://github.com/user-attachments/assets/0466c87f-89a7-4476-826b-1f3609407f5c" />
-<img width="1170" height="564" alt="so-alert-guided-2" src="https://github.com/user-attachments/assets/8c4aeaef-8bd8-4f9a-a896-0c2050eb2c63" />
-<img width="1920" height="1080" alt="so-alert-details-2" src="https://github.com/user-attachments/assets/ab49c282-d999-42b0-a956-23018022102c" />
-<img width="1920" height="1080" alt="so-alert-details" src="https://github.com/user-attachments/assets/8e781d42-69f7-4cd7-84fe-6698ce7a8361" />
+This is how the alert dashboard looks like when the ET Open rules fire off due to a nmap scan:
+<img width="1478" height="713" alt="so-alerts" src="https://github.com/user-attachments/assets/84b3aa6c-bc94-41e5-a755-0ac6a07f29d6" />
+<img width="1914" height="1022" alt="so-alert-details" src="https://github.com/user-attachments/assets/5b73c535-4556-4220-8465-e4ac6d7f9129" />
+<img width="1907" height="1022" alt="so-alert-details-2" src="https://github.com/user-attachments/assets/dff7518d-9f44-4bfe-aead-ca889cd06818" />
+
 
 
 ---
