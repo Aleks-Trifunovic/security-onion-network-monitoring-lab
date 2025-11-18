@@ -25,6 +25,17 @@ This is how the alert dashboard looks like when the ET Open rules fire off due t
 
 You can immediately see useful details like the source and destination IP addresses, the destination port, and the name of the rule that fired. It also gives you the timestamp, severity level, and a short description of what Suricata thinks is happening. All of this helps you quickly understand what kind of activity took place. It’s a simple scan, but it’s a good example of how Security Onion turns network traffic into something you can actually interpret and act on.
 
+When you open one of the alerts and look at the detailed view, you’ll also notice a section called “guided analysis.” This is a newer, experimental feature in Security Onion that seems to use some AI-assisted logic to help explain what the alert might mean. It’s a helpful extra layer when you’re still learning how to read alerts or when you want a second opinion on the potential threat.
+This is how it looks like:
+
+<img width="1910" height="1018" alt="so-alert-guided" src="https://github.com/user-attachments/assets/a6fd445c-b28b-4c9c-96ad-f911b72aefbc" />
+<img width="1170" height="564" alt="so-alert-guided-2" src="https://github.com/user-attachments/assets/0c653c17-c584-4420-80a2-4c1a419cb42a" />
+<img width="1170" height="468" alt="so-alert-guided-3" src="https://github.com/user-attachments/assets/3c0f5170-5426-4a74-900b-6a24f4d9d0cd" />
+<img width="1169" height="603" alt="so-alert-guided-4" src="https://github.com/user-attachments/assets/a84ecb1f-fbad-4155-ac61-a87ba5c84442" />
+<img width="1337" height="424" alt="so-alert-guided-5" src="https://github.com/user-attachments/assets/4ebec831-8eef-495d-918d-af241beb2119" />
+
+
+
 
 ---
 
