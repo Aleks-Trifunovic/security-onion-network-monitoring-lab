@@ -15,6 +15,20 @@ Another interesting point: my sniffing interface does have an IP (192.168.56.101
 
 ---
 
+## A few interesting points about Security Onion Alert dashboard
+
+<img width="1169" height="603" alt="so-alert-guided-4" src="https://github.com/user-attachments/assets/4f967ef0-0f64-47bb-859e-d2aebfddb5f5" />
+<img width="1170" height="468" alt="so-alert-guided-3" src="https://github.com/user-attachments/assets/1ed54551-de49-494b-a244-5d348e541c97" />
+<img width="1337" height="424" alt="so-alert-guided-5" src="https://github.com/user-attachments/assets/b2db6ea0-0f9b-4c21-b189-fe624232b874" />
+<img width="1920" height="1080" alt="so-alert-guided" src="https://github.com/user-attachments/assets/83c45254-8101-49e8-af4d-2ada44794314" />
+<img width="1478" height="713" alt="so-alerts" src="https://github.com/user-attachments/assets/0466c87f-89a7-4476-826b-1f3609407f5c" />
+<img width="1170" height="564" alt="so-alert-guided-2" src="https://github.com/user-attachments/assets/8c4aeaef-8bd8-4f9a-a896-0c2050eb2c63" />
+<img width="1920" height="1080" alt="so-alert-details-2" src="https://github.com/user-attachments/assets/ab49c282-d999-42b0-a956-23018022102c" />
+<img width="1920" height="1080" alt="so-alert-details" src="https://github.com/user-attachments/assets/8e781d42-69f7-4cd7-84fe-6698ce7a8361" />
+
+
+---
+
 ## What Worked Well
 
 Once everything was wired correctly, the alerts came in exactly as expected. A simple Nmap scan from Kali triggered multiple Suricata signatures. Seeing the alerts show up in the Security Onion dashboards helped me understand the whole detection pipeline much better.
