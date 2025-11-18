@@ -34,8 +34,7 @@ This is how it looks like:
 <img width="1169" height="603" alt="so-alert-guided-4" src="https://github.com/user-attachments/assets/a84ecb1f-fbad-4155-ac61-a87ba5c84442" />
 <img width="1337" height="424" alt="so-alert-guided-5" src="https://github.com/user-attachments/assets/4ebec831-8eef-495d-918d-af241beb2119" />
 
-
-
+Overall, the alerts dashboard and the guided analysis feature complement each other well, making it easier to quickly understand what’s happening on the network and decide how to move forward.
 
 ---
 
