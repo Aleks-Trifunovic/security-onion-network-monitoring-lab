@@ -1,6 +1,7 @@
 
 ## This document covers how I installed and configured the lab environment, as well as the issues I ran into and how I fixed them. The goal is to reflect the real process I went through rather than just giving a step-by-step guide.
 
+-----
 
 ### Kali Linux Setup
 
@@ -18,6 +19,8 @@
 
 No issues here — Kali worked as expected.
 
+-----
+
 ### Target Machine Setup (Linux)
 
 1. Setup a small linux VM.
@@ -31,6 +34,8 @@ No issues here — Kali worked as expected.
 4. Downloaded and installed Ubuntu.
 
 This machine is used as the “victim” for Nmap scans and other test traffic.
+
+-----
 
 ### Security Onion
 
@@ -49,6 +54,8 @@ This machine is used as the “victim” for Nmap scans and other test traffic.
   
 6. Finished the setup wizard and rebooted.
 7. Accessed the Security Onion UI from the host browser using the management IP.
+
+8. -----
 
 ### Notes on issues i had:
 
