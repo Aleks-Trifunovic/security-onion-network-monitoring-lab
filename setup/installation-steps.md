@@ -55,7 +55,7 @@ This machine is used as the “victim” for Nmap scans and other test traffic.
 6. Finished the setup wizard and rebooted.
 7. Accessed the Security Onion UI from the host browser using the management IP.
 
-8. -----
+-----
 
 ### Notes on issues i had:
 
