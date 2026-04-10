@@ -11,14 +11,14 @@ Well the network layout was the thing that surprised me most. I assumed getting 
 
 The other thing that clicked for me was why you'd want to keep management and monitoring on separate interfaces. The bridged adapter is convenient for reaching the web UI, but it has no business being your monitoring interface. I ended up putting the attacker and victim machines on a host-only network, which turned out to be exactly right. Everything stays contained, but Security Onion can still see it.
 
-One thing that tripped me up early: my sniffing interface has an IP (192.168.56.101) but no gateway, so it's basically isolated from the rest of the world. I wasn't sure if that would cause problems with Suricata, but it doesn't care whether the interface has an IP or not. It just sniffs packets directly. The IP actually made troubleshooting easier, since I could at least confirm the interface was up and reachable.
+One thing that tripped me up early: my sniffing interface has an IP (192.168.56.101) but no gateway, so it's basically isolated. I wasn't sure if that would cause problems with Suricata, but it doesn't care whether the interface has an IP or not. It just sniffs packets directly. The IP actually made troubleshooting easier, since I could at least confirm the interface was up and reachable.
 
 ---
 
 ## The Frustrating Parts:
 
 At first I couldn't get any alerts at all, which was genuinely annoying. I kept thinking something was broken with Security Onion itself. Turned out the issue was just which NIC was doing the sniffing and that I had the wrong adapter set up, and promiscuous mode wasn't configured properly either.
-Also: NAT traffic will never be monitored. That was a key thing I had to learn the hard way. Once I moved everything to the host-only network and got promiscuous mode right, things started behaving.
+Also: NAT traffic will never be monitored. That was a key thing I had to learn the hard way. Once I moved everything to the host-only network and got promiscuous mode right, things started behaving ok.
 Getting the ET Open ruleset enabled also made a big difference. Before that, even with everything else correct, alerts were inconsistent. After enabling it, they fired reliably.
 
 ---
